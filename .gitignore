@@ -1,0 +1,32 @@
+# Flutter / Dart
+.toolchains/
+.gradle/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+coverage/
+dist/*.apk
+*.sttb
+
+# Android local configuration and signing material
+android/local.properties
+*.jks
+*.keystore
+key.properties
+shanghaitech-timetable-release/
+**/SIGNING-KEY-RECOVERY.txt
+
+# IDE / operating system
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local captures and sensitive diagnostic data
+captures/
+session-data/
+*.har
+*.cookies
